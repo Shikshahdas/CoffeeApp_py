@@ -61,7 +61,7 @@ def coffee_machine():
                     make_coffee(choice, drink["ingredients"])
                     profit += drink["cost"]
         else:
-            print("❌ Invalid option, please try again.")
+            print("Invalid option, please try again.")
 
 
 # Run the app
