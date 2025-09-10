@@ -1,12 +1,11 @@
-# Coffee Machine App in Python
-
 MENU = {
-    "espresso": {"ingredients": {"water": 50, "coffee": 18}, "cost": 50},
-    "latte": {"ingredients": {"water": 200, "milk": 150, "coffee": 24}, "cost": 100},
-    "cappuccino": {"ingredients": {"water": 250, "milk": 100, "coffee": 24}, "cost": 120},
+    "Espresso": {"ingredients": {"water": 50, "coffee": 18}, "cost": 50},
+    "Latte": {"ingredients": {"water": 200, "milk": 150, "coffee": 24}, "cost": 100},
+    "Cappuccino": {"ingredients": {"water": 250, "milk": 100, "coffee": 24}, "cost": 120},
+    "Cold Coffee":{"ingredients":{"water":250, "milk":100, "coffee": 30, "ice cubes":5}, "cost": 150}
 }
 
-resources = {"water": 1000, "milk": 500, "coffee": 200}
+resources = {"water": 1000, "milk": 700, "coffee": 500}
 profit = 0
 
 
@@ -61,8 +60,8 @@ def coffee_machine():
                     make_coffee(choice, drink["ingredients"])
                     profit += drink["cost"]
         else:
+
             print("Invalid option, please try again.")
 
 
-# Run the app
-coffee_machine()
+
