@@ -6,4 +6,4 @@ A simple Python-based coffee ordering system that lets users choose from drinks 
 - Resource management (water, milk, coffee, ice)  
 - Simulated payment system with change return  
 - Reports for resources and profits  
-- Beginner-friendly and easy to extend.
+- Beginner-friendly
